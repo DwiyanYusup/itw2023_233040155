@@ -1,0 +1,6 @@
+ul>li>a{link1}
+ul>li*5>a{link1}
+ul>li*5>a{link$}
+position absolute
+position relativl
+vscode emmet

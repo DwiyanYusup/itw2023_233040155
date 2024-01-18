@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 6 - 1</title>
+    <style>
+        body {
+
+        }
+        .kotak {
+            width: 100px;
+            height: 100px;
+            color: white;
+            font-family: Arial;
+            font-size: 30px;
+            text-align: center;
+            line-height: 100px;
+        }
+        .satu { 
+            background-color: black;
+            z-index: 2;
+        }
+        .dua { 
+            background-color: red;
+            position: fixed;
+            top: 0;
+        }
+        .tiga { 
+            background-color: yellow;
+            z-index: 1;
+        }
+        .pembungkus{
+            width: 300px;
+            height: 300px;
+            border: 8px solid black;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="pembungkus">
+        <div class="kotak satu">1</div>
+        <div class="kotak dua">2</div>
+        <div class="kotak tiga">3</div>
+    </div>
+    </body>
+</html>
